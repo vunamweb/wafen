@@ -1,0 +1,73 @@
+
+.payengine3cw-confirmation-form .payengine3cw-error {
+	margin-left: 230px;
+	color: #D8000C;
+}
+
+.payengine3cw-iframe {
+	width: 100%;
+	border: none;
+}
+
+.payengine3cw-widget {
+	width: 100%;
+	border: none;
+}
+
+
+
+.payengine3cw-confirmation-form .card-brand-image-box {
+	display: inline-block;
+}
+
+
+.payengine3cw-confirmation-form .card-brand-image-color.brand-is-deselected {
+	display:none;
+}
+
+.payengine3cw-confirmation-form .card-brand-image-grey.brand-is-selected {
+	display:none;
+}
+
+.payengine3cw-confirmation-form .card-brand-image-selection img {
+	width:auto;
+	height: 25px;
+	margin-right: 5px;
+}
+
+.payengine3cw-confirmation-form .invalid-card-number, .payengine3cw-confirmation-form .invalid-cvc-number {
+	border-color: #fb7f88;
+	background-image: url(../image/invalid.png);
+	background-position: 95% center;
+	background-repeat: no-repeat;
+}
+
+.payengine3cw-confirmation-form .valid-card-number, .payengine3cw-confirmation-form .valid-cvc-number {
+	background-image: url(../image/valid.png);
+	background-position: 95% center;
+	background-repeat: no-repeat;
+}
+
+.payengine3cw-confirmation-form .payengine3cw-card-cvc input[type='text']{
+	width: 60px;
+}
+.payengine3cw-confirmation-form .payengine3cw-expiration-date select {
+	margin-right: 5px;
+}
+.payengine3cw-confirmation-form .card-brand-image-selection {
+	margin-top: 3px;
+}
+
+.payengine3cw-alias-pane {
+	margin-bottom: 20px;
+}
+
+.payengine3cw-alias-manager-form .col-sm-8{
+	padding-left: 0;
+}
+
+#payengine3cw-checkout-form-pane .col-sm-4, #payengine3cw-checkout-form-pane .col-sm-8{
+	padding-left: 0;
+}
+
+

@@ -1,0 +1,757 @@
+2017-10-16 8:59:21 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2017-10-16 8:59:36 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-06-06 10:10:58 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: payengine3cw
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'sale/recurring')) {
+LINE: 287
+CODE: <?php
+LINE: 1
+
+FILE: catalog/model/checkout/order.php
+CODE: // Order Totals
+LINE: 579
+CODE: $text .= $language->get('text_new_products') . "\n";
+LINE: 608
+LINE: 720
+
+FILE: catalog/view/theme/default/template/mail/order.tpl
+CODE: <?php if ($comment) { ?>
+LINE: 54
+----------------------------------------------------------------
+2018-06-06 10:11:04 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: payengine3cw
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'sale/recurring')) {
+LINE: 287
+CODE: <?php
+LINE: 1
+
+FILE: catalog/model/checkout/order.php
+CODE: // Order Totals
+LINE: 579
+CODE: $text .= $language->get('text_new_products') . "\n";
+LINE: 608
+LINE: 720
+
+FILE: catalog/view/theme/default/template/mail/order.tpl
+CODE: <?php if ($comment) { ?>
+LINE: 54
+----------------------------------------------------------------
+2018-06-06 10:18:52 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: payengine3cw
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'sale/recurring')) {
+LINE: 287
+CODE: <?php
+LINE: 1
+
+FILE: catalog/model/checkout/order.php
+CODE: // Order Totals
+LINE: 579
+CODE: $text .= $language->get('text_new_products') . "\n";
+LINE: 608
+LINE: 720
+
+FILE: catalog/view/theme/default/template/mail/order.tpl
+CODE: <?php if ($comment) { ?>
+LINE: 54
+----------------------------------------------------------------
+2018-06-06 10:24:50 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: payengine3cw
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'sale/recurring')) {
+LINE: 287
+CODE: <?php
+LINE: 1
+
+FILE: catalog/model/checkout/order.php
+CODE: // Order Totals
+LINE: 579
+CODE: $text .= $language->get('text_new_products') . "\n";
+LINE: 608
+LINE: 720
+
+FILE: catalog/view/theme/default/template/mail/order.tpl
+CODE: <?php if ($comment) { ?>
+LINE: 54
+----------------------------------------------------------------
+2018-06-06 10:24:52 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: payengine3cw
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'sale/recurring')) {
+LINE: 287
+CODE: <?php
+LINE: 1
+
+FILE: catalog/model/checkout/order.php
+CODE: // Order Totals
+LINE: 579
+CODE: $text .= $language->get('text_new_products') . "\n";
+LINE: 608
+LINE: 720
+
+FILE: catalog/view/theme/default/template/mail/order.tpl
+CODE: <?php if ($comment) { ?>
+LINE: 54
+----------------------------------------------------------------
+2018-06-25 15:00:14 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: payengine3cw
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'sale/recurring')) {
+LINE: 287
+CODE: <?php
+LINE: 1
+
+FILE: catalog/model/checkout/order.php
+CODE: // Order Totals
+LINE: 579
+CODE: $text .= $language->get('text_new_products') . "\n";
+LINE: 608
+LINE: 720
+
+FILE: catalog/view/theme/default/template/mail/order.tpl
+CODE: <?php if ($comment) { ?>
+LINE: 54
+----------------------------------------------------------------
+2018-07-23 7:25:23 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: payengine3cw
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'sale/recurring')) {
+LINE: 287
+CODE: <?php
+LINE: 1
+
+FILE: catalog/model/checkout/order.php
+CODE: // Order Totals
+LINE: 579
+CODE: $text .= $language->get('text_new_products') . "\n";
+LINE: 608
+LINE: 720
+
+FILE: catalog/view/theme/default/template/mail/order.tpl
+CODE: <?php if ($comment) { ?>
+LINE: 54
+----------------------------------------------------------------
+2019-05-23 9:10:48 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: payengine3cw
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'sale/recurring')) {
+LINE: 287
+CODE: <?php
+LINE: 1
+
+FILE: catalog/model/checkout/order.php
+CODE: // Order Totals
+LINE: 579
+CODE: $text .= $language->get('text_new_products') . "\n";
+LINE: 608
+LINE: 720
+
+FILE: catalog/view/theme/default/template/mail/order.tpl
+CODE: <?php if ($comment) { ?>
+LINE: 54
+----------------------------------------------------------------
+2019-05-23 9:14:30 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: payengine3cw
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'sale/recurring')) {
+LINE: 287
+CODE: <?php
+LINE: 1
+
+FILE: catalog/model/checkout/order.php
+CODE: // Order Totals
+LINE: 579
+CODE: $text .= $language->get('text_new_products') . "\n";
+LINE: 608
+LINE: 720
+
+FILE: catalog/view/theme/default/template/mail/order.tpl
+CODE: <?php if ($comment) { ?>
+LINE: 54
+----------------------------------------------------------------
+2019-05-23 9:14:33 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: payengine3cw
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'sale/recurring')) {
+LINE: 287
+CODE: <?php
+LINE: 1
+
+FILE: catalog/model/checkout/order.php
+CODE: // Order Totals
+LINE: 579
+CODE: $text .= $language->get('text_new_products') . "\n";
+LINE: 608
+LINE: 720
+
+FILE: catalog/view/theme/default/template/mail/order.tpl
+CODE: <?php if ($comment) { ?>
+LINE: 54
+----------------------------------------------------------------
+2019-05-23 9:14:35 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: payengine3cw
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'sale/recurring')) {
+LINE: 287
+CODE: <?php
+LINE: 1
+
+FILE: catalog/model/checkout/order.php
+CODE: // Order Totals
+LINE: 579
+CODE: $text .= $language->get('text_new_products') . "\n";
+LINE: 608
+LINE: 720
+
+FILE: catalog/view/theme/default/template/mail/order.tpl
+CODE: <?php if ($comment) { ?>
+LINE: 54
+----------------------------------------------------------------
+2019-05-23 9:14:35 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: payengine3cw
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'sale/recurring')) {
+LINE: 287
+CODE: <?php
+LINE: 1
+
+FILE: catalog/model/checkout/order.php
+CODE: // Order Totals
+LINE: 579
+CODE: $text .= $language->get('text_new_products') . "\n";
+LINE: 608
+LINE: 720
+
+FILE: catalog/view/theme/default/template/mail/order.tpl
+CODE: <?php if ($comment) { ?>
+LINE: 54
+----------------------------------------------------------------
+2019-05-23 9:14:37 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: payengine3cw
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'sale/recurring')) {
+LINE: 287
+CODE: <?php
+LINE: 1
+
+FILE: catalog/model/checkout/order.php
+CODE: // Order Totals
+LINE: 579
+CODE: $text .= $language->get('text_new_products') . "\n";
+LINE: 608
+LINE: 720
+
+FILE: catalog/view/theme/default/template/mail/order.tpl
+CODE: <?php if ($comment) { ?>
+LINE: 54
+----------------------------------------------------------------
