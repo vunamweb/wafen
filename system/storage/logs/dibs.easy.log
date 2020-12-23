@@ -1,0 +1,521 @@
+2020-12-22 14:18:45 - Authorization failed, please check your secret key and mode test/live
+2020-12-22 14:18:45 - 
+2020-12-22 14:24:02 - Authorization failed, please check your secret key and mode test/live
+2020-12-22 14:24:02 - 
+2020-12-22 14:30:27 - Authorization failed, please check your secret key and mode test/live
+2020-12-22 14:30:27 - 
+2020-12-22 14:35:51 - Authorization failed, please check your secret key and mode test/live
+2020-12-22 14:40:18 - Authorization failed, please check your secret key and mode test/live
+2020-12-22 14:40:18 - 
+2020-12-22 14:47:50 - Authorization failed, please check your secret key and mode test/live
+2020-12-22 14:47:50 - 
+2020-12-22 14:57:45 - Authorization failed, please check your secret key and mode test/live
+2020-12-22 14:57:45 - 
+2020-12-22 14:59:51 - Authorization failed, please check your secret key and mode test/live
+2020-12-22 14:59:51 - 
+2020-12-22 15:01:10 - Authorization failed, please check your secret key and mode test/live
+2020-12-22 15:01:10 - 
+2020-12-22 15:02:01 - Authorization failed, please check your secret key and mode test/live
+2020-12-22 15:02:01 - 
+2020-12-22 15:03:05 - Authorization failed, please check your secret key and mode test/live
+2020-12-22 15:03:05 - 
+2020-12-22 15:04:30 - Authorization failed, please check your secret key and mode test/live
+2020-12-22 15:04:30 - 
+2020-12-22 15:05:41 - Authorization failed, please check your secret key and mode test/live
+2020-12-22 15:05:41 - 
+2020-12-22 15:07:14 - Authorization failed, please check your secret key and mode test/live
+2020-12-22 15:07:14 - 
+2020-12-22 15:08:51 - Authorization failed, please check your secret key and mode test/live
+2020-12-22 15:08:51 - 
+2020-12-22 15:13:17 - stdClass Object
+(
+    [errors] => stdClass Object
+        (
+            [checkout.Url] => Array
+                (
+                    [0] => Checkout url cannot be empty
+                )
+
+        )
+
+)
+
+2020-12-22 15:17:20 - stdClass Object
+(
+    [errors] => stdClass Object
+        (
+            [checkout.Url] => Array
+                (
+                    [0] => Checkout url cannot be empty
+                )
+
+        )
+
+)
+
+2020-12-22 15:19:16 - stdClass Object
+(
+    [errors] => stdClass Object
+        (
+            [checkout.Url] => Array
+                (
+                    [0] => Checkout url cannot be empty
+                )
+
+        )
+
+)
+
+2020-12-22 15:23:11 - stdClass Object
+(
+    [errors] => stdClass Object
+        (
+            [checkout.Url] => Array
+                (
+                    [0] => Checkout url cannot be empty
+                )
+
+        )
+
+)
+
+2020-12-22 15:24:51 - stdClass Object
+(
+    [errors] => stdClass Object
+        (
+            [checkout.Url] => Array
+                (
+                    [0] => Checkout url cannot be empty
+                )
+
+        )
+
+)
+
+2020-12-22 15:24:57 - stdClass Object
+(
+    [errors] => stdClass Object
+        (
+            [checkout.Url] => Array
+                (
+                    [0] => Checkout url cannot be empty
+                )
+
+        )
+
+)
+
+2020-12-22 15:25:18 - stdClass Object
+(
+    [errors] => stdClass Object
+        (
+            [checkout.Url] => Array
+                (
+                    [0] => Checkout url cannot be empty
+                )
+
+        )
+
+)
+
+2020-12-22 15:26:13 - stdClass Object
+(
+    [errors] => stdClass Object
+        (
+            [checkout.Url] => Array
+                (
+                    [0] => Checkout url cannot be empty
+                )
+
+        )
+
+)
+
+2020-12-22 15:26:50 - stdClass Object
+(
+    [errors] => stdClass Object
+        (
+            [checkout.Url] => Array
+                (
+                    [0] => Checkout url cannot be empty
+                )
+
+        )
+
+)
+
+2020-12-22 15:29:01 - stdClass Object
+(
+    [errors] => stdClass Object
+        (
+            [checkout.Url] => Array
+                (
+                    [0] => Checkout url cannot be empty
+                )
+
+        )
+
+)
+
+2020-12-22 15:45:20 - stdClass Object
+(
+    [errors] => stdClass Object
+        (
+            [checkout.Url] => Array
+                (
+                    [0] => Field is not accepted as a valid URL
+                )
+
+        )
+
+)
+
+2020-12-22 16:33:17 - Authorization failed, please check your secret key and mode test/live
+2020-12-22 16:33:17 - 
+2020-12-22 16:46:34 - Collected data:
+2020-12-22 16:46:34 - Array
+(
+    [order] => Array
+        (
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [reference] => 1317
+                            [name] => Weihrauch HW 88 black
+                            [quantity] => 1
+                            [unit] => pcs
+                            [unitPrice] => 19900
+                            [taxRate] => 0
+                            [taxAmount] => 0
+                            [grossTotalAmount] => 19900
+                            [netTotalAmount] => 19900
+                        )
+
+                )
+
+            [amount] => 19900
+            [currency] => EUR
+            [reference] => opc_650
+        )
+
+    [checkout] => Array
+        (
+            [termsUrl] => http://temp20.waffen-bock.de/
+            [returnUrl] => http://localhost/wafen/index.php?route=extension/payment/dibseasy/confirm
+            [url] => http://localhost/wafen/index.php?route=extension/payment/dibseasy/confirm
+            [consumerType] => Array
+                (
+                    [supportedTypes] => Array
+                        (
+                            [0] => B2C
+                        )
+
+                    [default] => B2C
+                )
+
+        )
+
+    [merchantNumber] => 100020453
+)
+
+2020-12-22 16:46:34 - Curl request:
+2020-12-22 16:46:34 - {"order":{"items":[{"reference":"1317","name":"Weihrauch HW 88 black","quantity":"1","unit":"pcs","unitPrice":19900,"taxRate":0,"taxAmount":0,"grossTotalAmount":19900,"netTotalAmount":19900}],"amount":19900,"currency":"EUR","reference":"opc_650"},"checkout":{"termsUrl":"http:\/\/temp20.waffen-bock.de\/","returnUrl":"http:\/\/localhost\/wafen\/index.php?route=extension\/payment\/dibseasy\/confirm","url":"http:\/\/localhost\/wafen\/index.php?route=extension\/payment\/dibseasy\/confirm","consumerType":{"supportedTypes":["B2C"],"default":"B2C"}},"merchantNumber":"100020453"}
+2020-12-22 16:46:35 - Curl response:
+2020-12-22 16:46:35 - {"paymentId":"01b500005fe214d9d7d1375f3c23a579"}
+2020-12-22 16:46:35 - Curl request:
+2020-12-22 16:46:35 - Array
+(
+)
+
+2020-12-22 16:46:35 - Curl response:
+2020-12-22 16:46:35 - {"payment":{"paymentId":"01b500005fe214d9d7d1375f3c23a579","summary":{},"consumer":{"shippingAddress":{},"company":{"contactDetails":{"phoneNumber":{}}},"privatePerson":{"phoneNumber":{}}},"paymentDetails":{"invoiceDetails":{},"cardDetails":{}},"orderDetails":{"amount":19900,"currency":"EUR","reference":"opc_650"},"checkout":{"url":"http://localhost/wafen/index.php?route=extension/payment/dibseasy/confirm"},"created":"2020-12-22T15:46:33.7063+00:00"}}
+2020-12-22 16:46:36 - Curl request:
+2020-12-22 16:46:36 - Array
+(
+)
+
+2020-12-22 16:47:49 - Collected data:
+2020-12-22 16:47:49 - Array
+(
+    [order] => Array
+        (
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [reference] => 1317
+                            [name] => Weihrauch HW 88 black
+                            [quantity] => 1
+                            [unit] => pcs
+                            [unitPrice] => 19900
+                            [taxRate] => 0
+                            [taxAmount] => 0
+                            [grossTotalAmount] => 19900
+                            [netTotalAmount] => 19900
+                        )
+
+                )
+
+            [amount] => 19900
+            [currency] => EUR
+            [reference] => opc_651
+        )
+
+    [checkout] => Array
+        (
+            [termsUrl] => http://temp20.waffen-bock.de/
+            [returnUrl] => http://localhost/wafen/index.php?route=extension/payment/dibseasy/confirm
+            [url] => http://localhost/wafen/index.php?route=extension/payment/dibseasy/confirm
+            [consumerType] => Array
+                (
+                    [supportedTypes] => Array
+                        (
+                            [0] => B2C
+                        )
+
+                    [default] => B2C
+                )
+
+        )
+
+    [merchantNumber] => 100020453
+)
+
+2020-12-22 16:47:49 - Curl request:
+2020-12-22 16:47:49 - {"order":{"items":[{"reference":"1317","name":"Weihrauch HW 88 black","quantity":"1","unit":"pcs","unitPrice":19900,"taxRate":0,"taxAmount":0,"grossTotalAmount":19900,"netTotalAmount":19900}],"amount":19900,"currency":"EUR","reference":"opc_651"},"checkout":{"termsUrl":"http:\/\/temp20.waffen-bock.de\/","returnUrl":"http:\/\/localhost\/wafen\/index.php?route=extension\/payment\/dibseasy\/confirm","url":"http:\/\/localhost\/wafen\/index.php?route=extension\/payment\/dibseasy\/confirm","consumerType":{"supportedTypes":["B2C"],"default":"B2C"}},"merchantNumber":"100020453"}
+2020-12-22 16:47:50 - Curl response:
+2020-12-22 16:47:50 - {"paymentId":"027800005fe21525d7d1375f3c23a57c"}
+2020-12-22 16:47:50 - Curl request:
+2020-12-22 16:47:50 - Array
+(
+)
+
+2020-12-22 16:47:51 - Curl response:
+2020-12-22 16:47:51 - {"payment":{"paymentId":"027800005fe21525d7d1375f3c23a57c","summary":{},"consumer":{"shippingAddress":{},"company":{"contactDetails":{"phoneNumber":{}}},"privatePerson":{"phoneNumber":{}}},"paymentDetails":{"invoiceDetails":{},"cardDetails":{}},"orderDetails":{"amount":19900,"currency":"EUR","reference":"opc_651"},"checkout":{"url":"http://localhost/wafen/index.php?route=extension/payment/dibseasy/confirm"},"created":"2020-12-22T15:47:49.2411+00:00"}}
+2020-12-22 16:47:51 - Curl request:
+2020-12-22 16:47:51 - Array
+(
+)
+
+2020-12-22 16:59:45 - Collected data:
+2020-12-22 16:59:45 - Array
+(
+    [order] => Array
+        (
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [reference] => 1317
+                            [name] => Weihrauch HW 88 black
+                            [quantity] => 1
+                            [unit] => pcs
+                            [unitPrice] => 19900
+                            [taxRate] => 0
+                            [taxAmount] => 0
+                            [grossTotalAmount] => 19900
+                            [netTotalAmount] => 19900
+                        )
+
+                )
+
+            [amount] => 19900
+            [currency] => EUR
+            [reference] => opc_652
+        )
+
+    [checkout] => Array
+        (
+            [termsUrl] => http://temp20.waffen-bock.de/
+            [returnUrl] => http://localhost/wafen/index.php?route=extension/payment/dibseasy/confirm
+            [url] => http://localhost/wafen/index.php?route=extension/payment/dibseasy/confirm
+            [consumerType] => Array
+                (
+                    [supportedTypes] => Array
+                        (
+                            [0] => B2C
+                        )
+
+                    [default] => B2C
+                )
+
+        )
+
+    [merchantNumber] => 100020453
+)
+
+2020-12-22 16:59:45 - Curl request:
+2020-12-22 16:59:45 - {"order":{"items":[{"reference":"1317","name":"Weihrauch HW 88 black","quantity":"1","unit":"pcs","unitPrice":19900,"taxRate":0,"taxAmount":0,"grossTotalAmount":19900,"netTotalAmount":19900}],"amount":19900,"currency":"EUR","reference":"opc_652"},"checkout":{"termsUrl":"http:\/\/temp20.waffen-bock.de\/","returnUrl":"http:\/\/localhost\/wafen\/index.php?route=extension\/payment\/dibseasy\/confirm","url":"http:\/\/localhost\/wafen\/index.php?route=extension\/payment\/dibseasy\/confirm","consumerType":{"supportedTypes":["B2C"],"default":"B2C"}},"merchantNumber":"100020453"}
+2020-12-22 16:59:46 - Curl response:
+2020-12-22 16:59:46 - {"paymentId":"007600005fe217f1d7d1375f3c23a5bd"}
+2020-12-22 16:59:46 - Curl request:
+2020-12-22 16:59:46 - Array
+(
+)
+
+2020-12-22 16:59:46 - Curl response:
+2020-12-22 16:59:46 - {"payment":{"paymentId":"007600005fe217f1d7d1375f3c23a5bd","summary":{},"consumer":{"shippingAddress":{},"company":{"contactDetails":{"phoneNumber":{}}},"privatePerson":{"phoneNumber":{}}},"paymentDetails":{"invoiceDetails":{},"cardDetails":{}},"orderDetails":{"amount":19900,"currency":"EUR","reference":"opc_652"},"checkout":{"url":"http://localhost/wafen/index.php?route=extension/payment/dibseasy/confirm"},"created":"2020-12-22T15:59:45.0070+00:00"}}
+2020-12-22 16:59:46 - Curl request:
+2020-12-22 16:59:46 - Array
+(
+)
+
+2020-12-22 17:08:34 - Collected data:
+2020-12-22 17:08:34 - Array
+(
+    [order] => Array
+        (
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [reference] => 1317
+                            [name] => Weihrauch HW 88 black
+                            [quantity] => 1
+                            [unit] => pcs
+                            [unitPrice] => 19900
+                            [taxRate] => 0
+                            [taxAmount] => 0
+                            [grossTotalAmount] => 19900
+                            [netTotalAmount] => 19900
+                        )
+
+                )
+
+            [amount] => 19900
+            [currency] => EUR
+            [reference] => opc_653
+        )
+
+    [checkout] => Array
+        (
+            [termsUrl] => http://temp20.waffen-bock.de/
+            [returnUrl] => http://localhost/wafen/index.php?route=extension/payment/dibseasy/confirmhosted
+            [consumer] => Array
+                (
+                    [email] => dds@sddd.com
+                    [privatePerson] => Array
+                        (
+                            [firstName] => first
+                            [lastName] => family
+                        )
+
+                    [shippingAddress] => Array
+                        (
+                            [addressLine1] => germany
+                            [addressLine2] => 
+                            [postalCode] => 12345
+                            [city] => Hanover (Hannover)
+                            [country] => DEU
+                        )
+
+                )
+
+            [merchantHandlesConsumerData] => 1
+            [integrationType] => HostedPaymentPage
+            [consumerType] => Array
+                (
+                    [supportedTypes] => Array
+                        (
+                            [0] => B2C
+                        )
+
+                    [default] => B2C
+                )
+
+        )
+
+    [merchantNumber] => 100020453
+)
+
+2020-12-22 17:08:34 - Curl request:
+2020-12-22 17:08:34 - {"order":{"items":[{"reference":"1317","name":"Weihrauch HW 88 black","quantity":"1","unit":"pcs","unitPrice":19900,"taxRate":0,"taxAmount":0,"grossTotalAmount":19900,"netTotalAmount":19900}],"amount":19900,"currency":"EUR","reference":"opc_653"},"checkout":{"termsUrl":"http:\/\/temp20.waffen-bock.de\/","returnUrl":"http:\/\/localhost\/wafen\/index.php?route=extension\/payment\/dibseasy\/confirmhosted","consumer":{"email":"dds@sddd.com","privatePerson":{"firstName":"first","lastName":"family"},"shippingAddress":{"addressLine1":"germany","addressLine2":null,"postalCode":"12345","city":"Hanover (Hannover)","country":"DEU"}},"merchantHandlesConsumerData":true,"integrationType":"HostedPaymentPage","consumerType":{"supportedTypes":["B2C"],"default":"B2C"}},"merchantNumber":"100020453"}
+2020-12-22 17:08:36 - Curl response:
+2020-12-22 17:08:36 - {"paymentId":"007000005fe21a02d7d1375f3c23a5dc","hostedPaymentPageUrl":"https://test.checkout.dibspayment.eu/hostedpaymentpage/?checkoutKey=4537964b935c4376a67abb53c2e2e545&pid=007000005fe21a02d7d1375f3c23a5dc"}
+2020-12-22 17:08:36 - Curl request:
+2020-12-22 17:08:36 - Array
+(
+)
+
+2020-12-22 17:08:36 - Curl response:
+2020-12-22 17:08:36 - {"payment":{"paymentId":"007000005fe21a02d7d1375f3c23a5dc","summary":{},"consumer":{"shippingAddress":{"addressLine1":"germany","receiverLine":"first family","postalCode":"12345","city":"Hanover (Hannover)","country":"DEU"},"company":{"contactDetails":{"phoneNumber":{}}},"privatePerson":{"firstName":"first","lastName":"family","email":"dds@sddd.com","phoneNumber":{}}},"paymentDetails":{"invoiceDetails":{},"cardDetails":{}},"orderDetails":{"amount":19900,"currency":"EUR","reference":"opc_653"},"checkout":{"url":"https://test.checkout.dibspayment.eu/hostedpaymentpage/?checkoutKey=4537964b935c4376a67abb53c2e2e545&pid=007000005fe21a02d7d1375f3c23a5dc"},"created":"2020-12-22T16:08:34.5833+00:00"}}
+2020-12-22 17:20:12 - Collected data:
+2020-12-22 17:20:12 - Array
+(
+    [order] => Array
+        (
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [reference] => 1317
+                            [name] => Weihrauch HW 88 black
+                            [quantity] => 1
+                            [unit] => pcs
+                            [unitPrice] => 19900
+                            [taxRate] => 0
+                            [taxAmount] => 0
+                            [grossTotalAmount] => 19900
+                            [netTotalAmount] => 19900
+                        )
+
+                )
+
+            [amount] => 19900
+            [currency] => EUR
+            [reference] => opc_654
+        )
+
+    [checkout] => Array
+        (
+            [termsUrl] => http://temp20.waffen-bock.de/
+            [returnUrl] => http://localhost/wafen/index.php?route=extension/payment/dibseasy/confirmhosted
+            [consumer] => Array
+                (
+                    [email] => dds@sddd.com
+                    [privatePerson] => Array
+                        (
+                            [firstName] => first
+                            [lastName] => family
+                        )
+
+                    [shippingAddress] => Array
+                        (
+                            [addressLine1] => germany
+                            [addressLine2] => 
+                            [postalCode] => 12345
+                            [city] => Hanover (Hannover)
+                            [country] => DEU
+                        )
+
+                )
+
+            [merchantHandlesConsumerData] => 1
+            [integrationType] => HostedPaymentPage
+            [consumerType] => Array
+                (
+                    [supportedTypes] => Array
+                        (
+                            [0] => B2C
+                        )
+
+                    [default] => B2C
+                )
+
+        )
+
+    [merchantNumber] => 100020453
+)
+
+2020-12-22 17:20:12 - Curl request:
+2020-12-22 17:20:12 - {"order":{"items":[{"reference":"1317","name":"Weihrauch HW 88 black","quantity":"1","unit":"pcs","unitPrice":19900,"taxRate":0,"taxAmount":0,"grossTotalAmount":19900,"netTotalAmount":19900}],"amount":19900,"currency":"EUR","reference":"opc_654"},"checkout":{"termsUrl":"http:\/\/temp20.waffen-bock.de\/","returnUrl":"http:\/\/localhost\/wafen\/index.php?route=extension\/payment\/dibseasy\/confirmhosted","consumer":{"email":"dds@sddd.com","privatePerson":{"firstName":"first","lastName":"family"},"shippingAddress":{"addressLine1":"germany","addressLine2":null,"postalCode":"12345","city":"Hanover (Hannover)","country":"DEU"}},"merchantHandlesConsumerData":true,"integrationType":"HostedPaymentPage","consumerType":{"supportedTypes":["B2C"],"default":"B2C"}},"merchantNumber":"100020453"}
+2020-12-22 17:20:14 - Curl response:
+2020-12-22 17:20:14 - {"paymentId":"02ae00005fe21cbcd7d1375f3c23a60c","hostedPaymentPageUrl":"https://test.checkout.dibspayment.eu/hostedpaymentpage/?checkoutKey=4537964b935c4376a67abb53c2e2e545&pid=02ae00005fe21cbcd7d1375f3c23a60c"}
+2020-12-22 17:20:14 - Curl request:
+2020-12-22 17:20:14 - Array
+(
+)
+
+2020-12-22 17:20:15 - Curl response:
+2020-12-22 17:20:15 - {"payment":{"paymentId":"02ae00005fe21cbcd7d1375f3c23a60c","summary":{},"consumer":{"shippingAddress":{"addressLine1":"germany","receiverLine":"first family","postalCode":"12345","city":"Hanover (Hannover)","country":"DEU"},"company":{"contactDetails":{"phoneNumber":{}}},"privatePerson":{"firstName":"first","lastName":"family","email":"dds@sddd.com","phoneNumber":{}}},"paymentDetails":{"invoiceDetails":{},"cardDetails":{}},"orderDetails":{"amount":19900,"currency":"EUR","reference":"opc_654"},"checkout":{"url":"https://test.checkout.dibspayment.eu/hostedpaymentpage/?checkoutKey=4537964b935c4376a67abb53c2e2e545&pid=02ae00005fe21cbcd7d1375f3c23a60c"},"created":"2020-12-22T16:20:12.8339+00:00"}}
