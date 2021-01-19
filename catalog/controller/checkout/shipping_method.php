@@ -8,11 +8,15 @@ class ControllerCheckoutShippingMethod extends Controller {
 			$method_data = array();
 
 			$this->load->model('extension/extension');
+			$this->load->model('catalog/category');
 
 			$results = $this->model_extension_extension->getExtensions('shipping');
 			
 			$total = 0;
 			$products = $this->cart->getProducts();
+
+			$check = $this->model_catalog_category->checkInSpecialCategory($products);
+			//print_r($products);
 			//print_r($this->session->data['shipping_address']);
 
 			foreach ($products as $product)
@@ -22,7 +26,7 @@ class ControllerCheckoutShippingMethod extends Controller {
 				if ($this->config->get($result['code'] . '_status')) {
 					$this->load->model('extension/shipping/' . $result['code']);
 
-					$quote = $this->{'model_extension_shipping_' . $result['code']}->getQuote_1($this->session->data['shipping_address'], $total);
+					$quote = $this->{'model_extension_shipping_' . $result['code']}->getQuote_1($this->session->data['shipping_address'], $total, $check);
 
 					if ($quote) {
 						$method_data[$result['code']] = array(

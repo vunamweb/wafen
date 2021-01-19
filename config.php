@@ -15,17 +15,18 @@ define('HTTP_SERVER', 'http://localhost/wafen/');
 define('HTTPS_SERVER', 'http://localhost/wafen/');
 
 // DIR
-define('DIR_APPLICATION', 'C:/xampp_7/htdocs/wafen/catalog/');
-define('DIR_SYSTEM', 'C:/xampp_7/htdocs/wafen/system/');
-define('DIR_IMAGE', 'C:/xampp_7/htdocs/wafen/image/');
-define('DIR_LANGUAGE', 'C:/xampp_7/htdocs/wafen/catalog/language/');
-define('DIR_TEMPLATE', 'C:/xampp_7/htdocs/wafen/catalog/view/theme/');
-define('DIR_CONFIG', 'C:/xampp_7/htdocs/wafen/system/config/');
-define('DIR_CACHE', 'C:/xampp_7/htdocs/wafen/system/storage/cache/');
-define('DIR_DOWNLOAD', 'C:/xampp_7/htdocs/wafen/system/storage/download/');
-define('DIR_LOGS', 'C:/xampp_7/htdocs/wafen/system/storage/logs/');
-define('DIR_MODIFICATION', 'C:/xampp_7/htdocs/wafen/system/storage/modification/');
-define('DIR_UPLOAD', 'C:/xampp_7/htdocs/wafen/system/storage/upload/');
+define('DIR_APPLICATION', '/Applications/XAMPP/xamppfiles/htdocs/wafen/catalog/');
+define('DIR_SYSTEM', '/Applications/XAMPP/xamppfiles/htdocs/wafen/system/');
+define('DIR_IMAGE', '/Applications/XAMPP/xamppfiles/htdocs/wafen/image/');
+define('DIR_LANGUAGE', '/Applications/XAMPP/xamppfiles/htdocs/wafen/catalog/language/');
+define('DIR_TEMPLATE', '/Applications/XAMPP/xamppfiles/htdocs/wafen/catalog/view/theme/');
+define('DIR_CONFIG', '/Applications/XAMPP/xamppfiles/htdocs/wafen/system/config/');
+define('DIR_CACHE', '/Applications/XAMPP/xamppfiles/htdocs/wafen/system/storage/cache/');
+define('DIR_DOWNLOAD', '/Applications/XAMPP/xamppfiles/htdocs/wafen/system/storage/download/');
+define('DIR_LOGS', '/Applications/XAMPP/xamppfiles/htdocs/wafen/system/storage/logs/');
+define('DIR_MODIFICATION', '/Applications/XAMPP/xamppfiles/htdocs/wafen/system/storage/modification/');
+define('DIR_UPLOAD', '/Applications/XAMPP/xamppfiles/htdocs/wafen/system/storage/upload/');
+define('ADDITIONAL_SHIP', 50);
 
 // DB
 define('DB_DRIVER', 'mysqli');

@@ -1,5 +1,27 @@
 <?php
 class ModelCatalogCategory extends Model {
+	public function checkInSpecialCategory($products) {
+		foreach($products as $product) {
+			//print_r($product['product_id']);
+			$categories = $this->getCategories_1($product['product_id']);
+			//print_r($categories);
+			foreach($categories as $item) {
+				$data = $this->getCategory($item['category_id']);
+
+				if($data['column'] == 0)
+				  return true;
+			}
+		}
+
+		return false;
+	}
+
+	public function getCategories_1($product_id) {
+		$query = $this->db->query("SELECT * FROM " . DB_PREFIX . "product_to_category WHERE product_id = '" . (int)$product_id . "'");
+
+		return $query->rows;
+	}
+	
 	public function getCategory($category_id) {
 		$query = $this->db->query("SELECT DISTINCT * FROM " . DB_PREFIX . "category c LEFT JOIN " . DB_PREFIX . "category_description cd ON (c.category_id = cd.category_id) LEFT JOIN " . DB_PREFIX . "category_to_store c2s ON (c.category_id = c2s.category_id) WHERE c.category_id = '" . (int)$category_id . "' AND cd.language_id = '" . (int)$this->config->get('config_language_id') . "' AND c2s.store_id = '" . (int)$this->config->get('config_store_id') . "' AND c.status = '1'");
 

@@ -78,7 +78,7 @@ class ModelExtensionShippingWeight extends Model {
 		return $method_data;
 	}
 	
-	public function getQuote_1($address, $total) {
+	public function getQuote_1($address, $total, $check) {
 		$this->load->language('extension/shipping/weight');
 
 		$quote_data = array();
@@ -122,11 +122,20 @@ class ModelExtensionShippingWeight extends Model {
 				if (true) {
 					if ($total >= 100) {
 						//$title = "versdan";
-						$text = $this->currency->format($this->tax->calculate(0, $this->config->get('shipping_weight_tax_class_id'), $this->config->get('config_tax')), $this->session->data['currency']);
-					    $cost = 0;  
+						if($check)
+						  $cost = ADDITIONAL_SHIP;
+						else
+						  $cost = 0;
+
+						  $text = $this->currency->format($this->tax->calculate($cost, $this->config->get('shipping_weight_tax_class_id'), $this->config->get('config_tax')), $this->session->data['currency']);
+						    
 					} else {
 						//$title = $result['name'];
-						$text = $this->currency->format($this->tax->calculate($cost, $this->config->get('shipping_weight_tax_class_id'), $this->config->get('config_tax')), $this->session->data['currency']);
+						if($check)
+						  $cost = $cost + ADDITIONAL_SHIP;
+
+						  $text = $this->currency->format($this->tax->calculate($cost, $this->config->get('shipping_weight_tax_class_id'), $this->config->get('config_tax')), $this->session->data['currency']);
+
 					}
 				}
 
