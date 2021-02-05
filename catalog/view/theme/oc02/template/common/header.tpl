@@ -39,6 +39,7 @@ function popupnewsletter(){
 		$(".common-home #subscribe-me").modal('hide');
 	}
 }
+
 $(window).ready(function(){popupnewsletter();});</script>
 
 <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
@@ -226,7 +227,7 @@ $(document).ready(function(){
     <div class="navbar-collapse navbar-ex1-collapse collapse in">
               <ul class="nav navbar-nav">
                 <?php foreach ($categories as $category) { ?>
-               <li class="collapsed" data-toggle="collapse" data-target="#<?php echo str_replace(' ', '', $category['name']); ?>"><a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a>
+               <li class="collapsed" data-toggle="collapse" data-target="#<?php echo str_replace(' ', '', $category['name']); ?>"><a href="javascript:void(0)"><?php echo $category['name']; ?></a>
                   <?php if ($category['children']) { ?>
                   <?php for ($i = 0; $i < count($category['children']);) { ?>
                   <span><i class="fa fa-plus"></i></span>
