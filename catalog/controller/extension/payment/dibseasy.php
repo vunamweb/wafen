@@ -15,7 +15,8 @@ class ControllerExtensionPaymentDibseasy extends Controller {
          }
 
 	public function confirm() {
-               if (isset($this->session->data['payment_method']['code'])
+        //echo "dd"; die();       
+        if (isset($this->session->data['payment_method']['code'])
                    && $this->session->data['payment_method']['code'] == 'dibseasy') {
                         $this->load->model('extension/payment/dibseasy');
                         $paymentId  = $this->extractPaymentId();
@@ -156,7 +157,7 @@ class ControllerExtensionPaymentDibseasy extends Controller {
     }
 
     public function redirect() {
-        //echo "dd";
+        //echo "dd"; die();
 		$this->load->model('extension/payment/dibseasy');
 
         $this->load->language('extension/payment/dibseasy');
@@ -167,7 +168,9 @@ class ControllerExtensionPaymentDibseasy extends Controller {
             $transaction = $this->model_extension_payment_dibseasy->getTransactionInfo($paymentid);
 		    //$json['redirect'] = $transaction->payment->checkout->url . '&language=' . $this->config->get('payment_dibseasy_language');
         	
-            $json['redirect'] = $transaction->payment->checkout->url . '&language=' . $this->config->get('payment_dibseasy_language');
+            //$json['redirect'] = $transaction->payment->checkout->url . '&language=' . $this->config->get('payment_dibseasy_language');
+            $json['redirect'] = $transaction->payment->checkout->url . '&language=' . 'de-DE';
+            
         } else {
             $this->session->data['error'] = $this->language->get('dibseasy_checkout_redirect_error');
             $json['error'] = 1;
